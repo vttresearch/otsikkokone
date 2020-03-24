@@ -45,16 +45,16 @@ Usage example to train the model; use UNCASED version of FinBert:
 
 Example training log end:
 
-Epoch 98/100
-6/6 [==============================] - 2s 379ms/step - loss: 1.1526 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00
-Epoch 99/100
-6/6 [==============================] - 2s 383ms/step - loss: 1.0449 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00
-Epoch 100/100
-6/6 [==============================] - 2s 371ms/step - loss: 1.0639 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00
-Evaluating performance on validation and test data
-1/1 [==============================] - 1s 507ms/step
-[[0 0]
- [1 0]]
+Epoch 98/100  
+6/6 [==============================] - 2s 379ms/step - loss: 1.1526 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00  
+Epoch 99/100  
+6/6 [==============================] - 2s 383ms/step - loss: 1.0449 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00  
+Epoch 100/100  
+6/6 [==============================] - 2s 371ms/step - loss: 1.0639 - acc: 0.6667 - val_loss: 1.5880 - val_acc: 0.0000e+00  
+Evaluating performance on validation and test data  
+1/1 [==============================] - 1s 507ms/step  
+[[0 0]  
+ [1 0]]  
 saving results Namespace(bert_data_path='bert-base-finnish-uncased-v1', calculate_response=False, epochs='100', features_file='example_input_data.pickle', hidden_layers=1, model_filename='model.h5', neurons='512', no_premium=False, prem_free_separate=False, use_lemmatized_title=False, use_sections=False, use_temporal_features=False, use_title_features=False);1.063857913017273;0.6666666865348816;1.58795964717865;0.0;[[0, 0], [1, 0]];1.6743741035461426;0.0;[[0, 0], [1, 0]]
 
 Total time elapsed [seconds]: 296.36264872550964
